@@ -2,7 +2,8 @@
 
 - Exception testing syntax in JUnit
 
-JUnit provides an option of tracing the exception handling of code. You can test whether the code throws a desired exception or not. The expected parameter is used along with @Test annotation, assertThrows(IllegalArgumentException.class)
+JUnit provides an option of tracing the exception handling of code. You can test whether the code throws a desired exception or not. The expected parameter is used along with
+  @Test annotation, assertThrows(IllegalArgumentException.class)
 
 
 ## Testing Object Equality
