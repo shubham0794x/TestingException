@@ -56,6 +56,7 @@ public class Book {
         if (o == null || getClass() != o.getClass() ) return false;
         Book book = (Book) o;
         return getPublishYear() == book.getPublishYear() &&
+                Objects.equals(getTitle(), book.getTitle()) &&
                 Objects.equals(getAuthor(), book.getAuthor());
     }
 
